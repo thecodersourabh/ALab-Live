@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunkmypedia"] = self["webpackChunkmypedia"] || []).push([["main"],{
+(self["webpackChunkalab"] = self["webpackChunkalab"] || []).push([["main"],{
 
 /***/ 4114:
 /*!***************************************!*\
