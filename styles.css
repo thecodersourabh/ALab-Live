@@ -9246,6 +9246,10 @@ body {
   font-size: 20px;
 }
 
+.section-box {
+  padding: 130px 0;
+}
+
 .section {
   background: #f1f5f9;
 }
