@@ -1,5 +1,5 @@
 {
-  "Header.Item1": "Main",
+  "Header.Item1": "Home",
   "Header.Item2": "Services",
   "Header.Item3": "Our Projects",
   "Header.Item4": "Resources",
@@ -28,7 +28,9 @@
     "Robotic Process Automation (RPA)",
     "Serverless Architecture",
     "Microservices Architecture",
-    "DevOps Supports"
+    "DevOps Supports",
+    "Messaging and Chatbots",
+    "Automation Sells Bots"
   ],
   "Services.Title": "Our Services",
   "Experience.Title": "Experience",
@@ -52,7 +54,7 @@
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "S&P Capital IQ Pro (Chemical-Insights)",
+      "Title": "Capital IQ Pro (Insights)",
       "Description": "Monitoring application for data consultation. Developed software for chemical forecast data refinement and visualization using Azure, GIT, AWS, ASP.Net Core API 3.0, C#, Angular 11, and SQL Server 2020. Implemented microservices for processing big data and delivering matrices and graphs to dashboards., made with <span class='underline'>Angular</span> and backend in <span class='underline'>C#, Dotnet core</span>. It works with <span class='underline'>Rest API and GenAI</span>, <span class='underline'>schedules</span>, <span class='underline'>SQS</span>, integrations with AWS, CloudWatch, Microservices etc.",
       "imgs": [
         "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png",
@@ -62,25 +64,12 @@
         "assets/images/gisselle/Captura de pantalla 2024-05-19 1009582.png"
       ],
       "Technologies": [
-        "C#",
-        "Angular 17",
-        "SASS",
-        "Angular Material",
-        "RxJS",
-        "AWS",
-        "Dotnet core",
-        "SQS",
-        "Rest API",
-        "GenAI",
-        "Schedules",
-        "Microservices",
-        "AWS CloudWatch",
-        "AWS Lambda"
+        
       ]
     },
     {
       "Title": "Sample Testing - Next Generation",
-      "Description": "Created microservices for an online order placement and sample testing application using Azure, GIT, Postman, ASP.Net Core API 3.0, C#, Angular 6, and SQL Server 2017. Developed a system to manage barcodes, scheduling, and payments for customer sample testing, made with <span class='underline'>Angular</span> and <span class='underline'>C#</span>. It applies the <span class='underline'>chart.js</span> graphics library",
+      "Description": "Created microservices for an online order placement and sample testing application using Azure, GIT, Postman, Core API 3.0, C#, Angular 6, and SQL Server 2017. Developed a system to manage barcodes, scheduling, and payments for customer sample testing, made with <span class='underline'>Angular</span> and <span class='underline'>C#</span>. It applies the <span class='underline'>chart.js</span> graphics library",
       "imgs": [
         "assets/images/proyex2/6d7d8f04-f1f0-40c7-afbb-d2944cdb4d9c.png",
         "assets/images/proyex2/849c117f-bed9-4406-9c13-c8669f655acc.png",
@@ -89,15 +78,13 @@
         "assets/images/proyex2/8c919208-d6a8-48f4-890d-4817323b6923 (1).png"
       ],
       "Technologies": [
-        "C#",
-        "Angular 2",
-        "SASS",
-        "Angular Material",
-        "RxJS"
+        "Forms ",
+        "CRM ",
+        "ERP "
       ]
     },
     {
-      "Title": "Tax Management Services(KPMG)",
+      "Title": "Tax Management Services",
       "Description": "Tech Cello is available as one integrated and unified solution that can be easily plugged in to accelerate any new SaaS product development. The Tech Cello framework provides services such as provisioning, security, metering, billing, monitoring services; workflow and multi-tenant database are exposed to the application layer. This will be application development platform that allows developers to create, test and deploy applications, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has reactive form logic for configuring parameters.",
       "imgs": [
         "assets/images/agrourbana/agrourbana1.png",
@@ -107,11 +94,7 @@
         "assets/images/agrourbana/agrourbana5.png"
       ],
       "Technologies": [
-        "C#",
-        "Angular",
-        "SASS",
-        "Angular Material",
-        "RxJS"
+        
       ]
     }
   ],
@@ -123,15 +106,12 @@
       "ghLink": "",
       "demoLink": "",
       "Technologies": [
-        "C#",
-        "Angular",
-        "SASS",
-        "CSS GRID",
-        "Reactive form"
+        "AI",
+        "SASS"
       ]
     },
     {
-      "Title": "Four card feature section",
+      "Title": "Feature widget section",
       "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
       "ghLink": "",
       "demoLink": "",
@@ -142,12 +122,12 @@
       ]
     },
     {
-      "Title": "Profile card",
+      "Title": "Live chat section",
       "Description": "Simple one-page design that features a profile letter with basic information about a person.",
       "ghLink": "",
-      "demoLink": "https://thecodersourabh.github.io/sourabh-portfolio/en",
+      "demoLink": "https://thecodersourabh.github.io/Mypedia-Live/en",
       "Technologies": [
-        "Angular",
+        "React",
         "SASS",
         "GIT"
       ]
