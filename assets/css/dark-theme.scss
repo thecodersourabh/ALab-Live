@@ -30,7 +30,7 @@ body {
 
 .main-navbar {
   height: 100px;
-  background: map-get($CurrentTheme, header-color);
+  background: map-get($CurrentTheme, background-color);
   font-family: $CodeFont;
   .menu-ul {
     li {
@@ -67,7 +67,7 @@ body {
     right: 90vw;
   }
   aside {
-    width: 30vw;
+    width: 30vw !important;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
@@ -75,8 +75,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: rgba(map-get($CurrentTheme, background-color), 0.7);
-    height: 100%;
-    position: relative;
+    height: 100% !important;
+    position: relative !important;
     right: 1000px;
     margin-top: 75%;
     font-family: $CodeFont;

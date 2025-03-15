@@ -52,14 +52,14 @@ body {
   right: 90vw;
 }
 .main-navbar aside {
-  width: 30vw;
+  width: 30vw !important;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgba(241, 245, 249, 0.7);
-  height: 100%;
-  position: relative;
+  height: 100% !important;
+  position: relative !important;
   right: 1000px;
   margin-top: 75%;
   font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Caveat, Monospace;
