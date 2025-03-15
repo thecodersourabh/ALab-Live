@@ -1946,7 +1946,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 7580);
 
 class ThemeService {
-  static #_ = this.default = 'light-theme';
+  static #_ = this.default = 'light';
   get current() {
     return localStorage.getItem('theme') ?? ThemeService.default;
   }
