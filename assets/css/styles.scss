@@ -21,7 +21,6 @@ body {
   background: map-get($CurrentTheme, background-color);
 }
 
-
 .code-font {
   font-family: $CodeFont;
 }
@@ -64,7 +63,7 @@ body {
     display: block;
     height: 1px;
     width: 300px;
-    background-color: map-get($CurrentTheme, block-background);;
+    background-color: map-get($CurrentTheme, block-background);
     position: relative;
     top: -5px;
     margin-left: 20px;
@@ -126,6 +125,12 @@ a {
   left: 0;
 }
 
+p {
+  margin: 0 0 1rem;
+  line-height: 1.5;
+  color: map-get($CurrentTheme, body-text-color);
+}
+
 @media (min-width: 768px) and (max-width: 1100px) {
   .proyect-container {
     margin: 30px 0 !important;
@@ -156,7 +161,7 @@ a {
   }
 }
 @media (min-width: 768px) and (max-width: 800px) {
-  .section{
+  .section {
     padding: 30px 0;
   }
   .section-box {

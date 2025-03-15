@@ -18,8 +18,7 @@ body {
 }
 
 .main-navbar {
-  height: 70px;
-  background: #0a192f;
+  height: 100px;
   font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Caveat, Monospace;
 }
 .main-navbar .menu-ul li {
@@ -47,49 +46,34 @@ body {
 .main-navbar .menu-responsive li a {
   display: flex !important;
 }
-.main-navbar .menu-responsive li .cv-btn {
-  width: fit-content !important;
-  margin-left: 20px;
-}
-.main-navbar .menu-responsive li .language-container {
-  width: 200px;
-  margin-left: 18px;
-  margin-top: 50px;
-  padding-left: 0px;
-  padding-bottom: 0px;
-}
-.main-navbar .menu-responsive li .language-container-selector {
-  display: flex;
-}
-.main-navbar .menu-responsive li .language-container-selector img {
-  width: 35px;
-}
 .main-navbar .aside-show {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-  right: 0px;
+  right: 90vw;
 }
 .main-navbar aside {
-  width: 75vw;
+  width: 30vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgba(10, 25, 47, 0.7);
   height: 100%;
   position: relative;
-  right: -625px;
-  margin-left: auto;
+  right: 1000px;
+  margin-top: 75%;
   font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Caveat, Monospace;
   box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
-  padding: 25px;
+  padding: 10%;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 .main-navbar aside nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   flex-direction: column;
   text-align: center;
+  color: #64ffda;
 }
 .main-navbar aside nav ol {
   width: 100%;
@@ -325,7 +309,7 @@ a:hover {
     padding: 30px 0;
   }
 }
-@media (max-width: 768em) {
+@media (max-width: 768px) {
   .section-title {
     font-size: 24px;
   }
